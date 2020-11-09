@@ -1,0 +1,562 @@
+    /*********************************/
+  /***********DOWNLOAD FONTS*********/
+ /********************************/
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Medium.woff2') format('woff2'),
+        url('../fonts/Poppins-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+   /*********************************/
+  /***********1.GLOBAL CSS*********/
+ /********************************/
+ 
+body {
+    position: relative;
+    margin: 0; 
+    padding: 0; 
+    font-size: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+html {
+    font-size: 62.5%;
+    line-height: 25px;
+    line-height: 2.5rem;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+.section-title{
+    text-align: center;
+    padding: 6rem 0 4rem 0;
+}
+.section-title h2{
+    font-size: 3.4rem;
+    color: #000;
+    font-weight: 500;
+    font-family: 'Poppins';
+}
+.section-title p {
+  width: 51%;
+  margin: 1rem auto;
+  color: #707070;
+  font-size: 1.5rem;
+}
+.section-padding{
+  padding: 1rem 0 4rem 0;
+}
+   /*********************************/
+  /***********2.HEADER CSS**********/
+ /********************************/
+
+
+.header-area{
+  padding: 2rem 0;
+  background: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+}
+ .logo {
+  width: 60%;
+  height: auto;
+}
+ .logo img{
+  width: 100%;
+  height: 100%;
+}
+.nav-icon i {
+   display: none; 
+  font-size: 2.5rem;
+  color: #fff;
+  border: 0.2rem solid #fff;
+  padding: 0.5rem;
+  border-radius: 1rem;
+}
+.menu ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.menu ul li {
+  margin: 0 1rem;
+} 
+.menu ul li a {
+  padding: 0.5rem 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-family: 'Poppins';
+  color: #fff;
+  transition: 0.3s;
+  border-bottom: 0.3rem solid transparent;
+  display: block ruby;
+}
+.menu ul li a.active,
+.menu ul li a:hover{ 
+  border-bottom: 0.3rem solid #0D13D7;
+}
+.contact-menu {
+  background: #fff;
+  color: #000 !important;
+  border-radius: 3rem;
+  padding: 0.5rem 2rem !important; 
+}
+.contact-menu:hover{
+  border-bottom: 0.3rem solid transparent !important;
+}
+
+
+
+   /*********************************/
+  /***********3.BANNER CSS**********/
+ /********************************/
+
+
+.banner-area{
+  background: url('../images/banner/banner-bg.png') no-repeat scroll center center / cover;
+  position: relative;
+}
+.banner-right {
+  column-count: 3;
+  margin-top: 9rem;
+}
+.banner-img1 { 
+  height: auto;
+  width: 130%;
+}
+.banner-img2 {
+  width: 177%;
+  height: 50rem; 
+  transform: translate(-10%,-10%);
+}
+.banner-img3 { 
+  width: 130%;
+  height: auto;
+}
+.banner-img1 img {
+  width: 100%;
+  height: 100%;
+}
+.banner-img2 img {
+  width: 100%;
+  height: 100%;
+}
+.banner-img3 img {
+  width: 100%;
+  height: 100%;
+}
+.banner-content h1 {
+  font-size: 4.5rem;
+  font-weight: 500;
+  color: #fff;
+}
+.banner-content p {
+  width: 83%;
+  color: #FEFEFE;
+  margin: 2rem 0;
+}
+.banner-btn {
+  display: flex;
+  align-items: center;
+}
+.btn-1 {
+  font-size: 2rem;
+  padding: 1.5rem 2rem;
+  background: #fff;
+  border-radius: 3rem;
+  color: #000;
+  transition: 0.3s
+}
+.btn-1:hover{
+  background: #0D13D7;
+  color:#ffff;
+}
+.btn-2 {
+  color: #fff;
+  font-size: 2rem;
+  margin-left: 2rem;
+  transition: 0.3s;
+}
+.btn-2:hover{
+  color: #0D13D7;
+}
+.banner-content {
+  padding: 19rem 0 25rem 0;
+}
+
+
+   /*********************************/
+  /***********4.SERVICE CSS**********/
+ /********************************/
+
+
+
+.service-item {
+  padding: 4rem 2rem;
+  box-shadow: 0px 1.3rem 2.9rem -0.5rem #e1e0e0;
+  text-align: center;
+  border-radius: 2rem;
+}
+.service-img {
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
+}
+.service-img img{
+  width: 100%;
+  height: 100%;
+}
+.service-item h3 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin: 2rem 0 1rem 0;
+}
+.service-item p {
+  color: #6B6969;
+  width: 75%;
+  margin: 0 auto;
+}
+.service-area .col-md-4 {
+  flex: 0 0 30%;
+}
+
+
+
+
+   /*********************************/
+  /***********5.ABOUT CSS**********/
+ /********************************/
+
+
+ .about-img{
+  width: 100%;
+  height: auto;
+  position: relative;
+ }
+ .about-img img{
+  width: 100%;
+  height: 100%;
+ }
+.about-img::after {
+  content: "";
+  position: absolute;
+  width: 500%;
+  height: 100%;
+  top: 0;
+  left: -500%;
+  background: #0D13D7;
+  clip-path: polygon(120% 38%, 127% 62%, 0 185%, 0 -119%);
+}
+ .about-content h3 {
+  font-size: 2.5rem;
+}
+.about-content p {
+  font-size: 1.5rem;
+  color: #707070;
+  margin-top: 2rem;
+}
+.testi-btn .btn-2,
+.about-content .btn-2 {
+  color: #707070;
+  margin: 3rem 0;
+  border: 0.1rem solid #0D13D7;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  transition: 0.3s;
+}
+.testi-btn .btn-2:hover,
+.about-content .btn-2:hover{
+  color: #000;
+  border: 0.1rem solid #000;
+}
+
+
+
+   /*********************************/
+  /***********6.PROJECT CSS**********/
+ /********************************/
+
+
+
+.project-item {
+  display: flex;
+  align-items: center;
+  color: #1453FF;
+  font-family: 'Poppins';
+  padding: 2rem;
+  transition: 0.3s;  
+  border-radius: 0 0 6rem 0;
+}
+.active-project,
+.project-item:hover{ 
+  box-shadow: 0px 1.3rem 2.9rem -0.5rem #e1e0e0;
+  border-radius: 0 0 6rem 0;
+}
+.project-item i {
+  font-size: 4rem;
+  margin-right: 1rem;
+}
+.project-content h3 { 
+  font-size: 2.5rem; 
+  font-weight: 500;
+}
+.project-content p {
+  font-size: 1.5rem;
+}
+
+
+
+   /*********************************/
+  /***********7.PORTFOLIO CSS*******/
+ /********************************/
+
+
+.portfolio-area {
+  overflow: hidden;
+}
+.portfolio-item{
+  width: 100%;
+  height: auto;
+}
+
+.portfolio-item img{
+  width: 100%;
+  height: 100%;
+}
+.portfolio-area .container{
+  position: relative;
+}
+.portfolio-area .container::after {
+  content: "";
+  position: absolute;
+  top: 15%;
+  right: -95%;
+  width: 100%;
+  height: 100%;
+  background: #0D13D7;
+  clip-path: polygon(0 70%, 0 30%, 100% 0, 100% 100%);
+}
+
+
+
+
+   /*********************************/
+  /********8.TESTIMONIALS CSS*******/
+ /********************************/
+
+
+
+.testimonials-area.section-padding {
+  padding-bottom: 15rem;
+}
+.testi-btn { 
+  text-align: right;
+}
+.testimonials-area .section-title {
+  text-align: left;
+}
+.testimonials-area .section-title p{
+  width: 100%; 
+}
+.testi-img {
+  width: 100%;
+  height: auto;
+}
+.testi-img img{
+  width: 100%;
+  height: 100%;
+}
+.testi-content ul {
+  display: flex;
+}
+.testi-content ul li{ 
+  margin-right: 1rem
+} 
+.testi-content ul li i {
+  color: #FFF706;
+  font-size: 2.5rem;
+}
+.testi-content p {
+  margin-top: 1rem;
+  width: 58%;
+  font-family: 'Poppins'; 
+  color: #222D39;
+}
+.testi-content {
+  background: #EFEFFE;
+  padding: 9rem 0 10rem 15rem;
+}
+.testi-content h4 {
+  margin: 2rem 0 0.5rem 0;
+}
+.pixbay {
+  color: #333697;
+}
+
+
+   /*********************************/
+  /************9.FOOTER CSS********/
+ /********************************/
+
+
+
+.footer-area.section-padding {
+  padding-top: 15rem;
+}
+.footer-area{
+  background: #EBEBF8;
+  position: relative;
+}
+.footer-img {
+  width: 70%;
+  height: auto;
+}
+.footer-img img{
+  width: 100%;
+  height: 100%;
+}
+.footer-social {
+  display: flex; 
+  margin-top: 3rem;
+}
+.footer-social li{
+  margin-right: 2rem;
+}
+.footer-social li a i {
+  width: 3rem;
+  height: 3rem;
+  line-height: 3rem;
+  border: 0.1rem solid #9C9CA8;
+  border-radius: 50%;
+  text-align: center;
+  color: #9C9CA8;
+  transition: 0.3s;
+}
+.footer-social li a:hover i{
+  color: #0D13D7;
+  border: 0.1rem solid #0D13D7;
+}
+.footer-item h4 {
+  font-family: 'Poppins';
+  text-transform: capitalize;
+  margin-bottom: 2rem;
+  display: block ruby;
+}
+.footer-item ul li a {
+  color: #8A8A8A;
+  text-transform: capitalize;
+  font-family: 'Poppins';
+  display: block ruby;
+  transition: 0.3s;
+}
+.footer-item ul li{
+  margin-bottom: 0.5rem;
+}
+.footer-item ul li a:hover{ 
+  color: #0D13D7;
+}
+
+ 
+.footer-left p {
+  font-size: 1.4rem;
+  color: #677294;
+  font-family: 'Poppins';
+}
+.footer-right ul {
+  display: flex;
+  justify-content: flex-end;
+}
+.footer-right ul li a {
+  padding: 0 2rem;
+  font-size: 1.4rem;
+  color: #677294;
+  font-family: 'Poppins';
+  transition: 0.3s;
+}
+.footer-right ul li a:hover{ 
+  color: #0D13D7;
+}
+
+
+/*contact*/
+
+.contact {
+  background: #333697;
+  padding: 0 5rem;
+  max-width: 76%;
+  margin: 0 auto;
+  border-radius: 3rem;
+  position: absolute;
+  top: -22%;
+  left: 0;
+  right: 0;
+}
+.contact .section-title {
+  text-align: left;
+  color: #fff !important; 
+  padding: 3rem 0 2rem 0;
+} 
+.contact .section-title p{ 
+   width: 100%;
+  color: #fff !important;
+}
+.contact .section-title h2{  
+  color: #fff !important;
+}
+.search-box {
+  display: flex;
+  position: relative;
+  justify-content:flex-end;
+}
+ 
+.search-box input[type="email"] {
+  padding: 1.56rem 2rem;
+  font-size: 1.4rem;
+  text-transform: capitalize;
+  border-radius: 3rem;
+  border: none;
+  width: 85%;
+}
+.search-box input[type="email"]:focus {
+  box-shadow: 0px 0.3rem 1.9rem -0.5rem #e1e0e0;
+}
+.search-box button {
+  position: absolute;
+  top: 0.6rem;
+  right: 0.6rem;
+  outline: none;
+  border: none;
+  background: #333697;
+  padding: 0.8rem 3rem;
+  border-radius: 3rem;
+  color: #fff;
+  transition: 0.3s;
+}
+.search-box button:hover{
+  color: #a6abb9;
+}
