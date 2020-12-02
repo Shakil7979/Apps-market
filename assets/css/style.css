@@ -288,6 +288,7 @@ a {
   padding: 1rem 2rem;
   border-radius: 2rem;
   transition: 0.3s;
+  text-align: center;
 }
 .testi-btn .btn-2:hover,
 .about-content .btn-2:hover{
@@ -540,7 +541,7 @@ a {
   text-transform: capitalize;
   border-radius: 3rem;
   border: none;
-  width: 85%;
+  width: 100%;
 }
 .search-box input[type="email"]:focus {
   box-shadow: 0px 0.3rem 1.9rem -0.5rem #e1e0e0;
